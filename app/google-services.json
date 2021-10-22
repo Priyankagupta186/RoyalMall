@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "332381458338",
+    "project_id": "royal-mall-b8aba",
+    "storage_bucket": "royal-mall-b8aba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332381458338:android:b65e1da21f332d087b2cfb",
+        "android_client_info": {
+          "package_name": "com.example.rm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332381458338-r0ftfrnhc6h93cl4ko6hldsd09odjman.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rm",
+            "certificate_hash": "87d9963587685ff8e493996c90fe8e9c8c9f4b48"
+          }
+        },
+        {
+          "client_id": "332381458338-jm3slujktjvl13m0nrgogtnnoq1bkqev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFmQAKTqFdjgWaiN6veFHtRpLW3ZzzdJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332381458338-jm3slujktjvl13m0nrgogtnnoq1bkqev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
