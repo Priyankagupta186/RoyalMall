@@ -1,40 +1,27 @@
 package com.example.rm;
 
-public class  CategoryModel {
-    String img_url;
-    String name;
-    String type;
+public class CategoryModel {
+    private String CategoryIconLink;
+    private String categoryName;
 
-    public CategoryModel() {
+    public CategoryModel(String categoryIconLink, String categoryName) {
+        CategoryIconLink = categoryIconLink;
+        this.categoryName = categoryName;
     }
 
-    public CategoryModel(String img_url, String name, String type) {
-        this.img_url = img_url;
-        this.name=name;
-        this.type=type;
+    public String getCategoryIconLink() {
+        return CategoryIconLink;
     }
 
-    public String getImg_url() {
-        return img_url;
+    public void setCategoryIconLink(String categoryIconLink) {
+        CategoryIconLink = categoryIconLink;
     }
 
-    public void setImg_url(String img_url) {
-        this.img_url = img_url;
+    public String getCategoryName() {
+        return categoryName;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
+    public void setCategoryName(String categoryName) {
+        this.categoryName = categoryName;
     }
 }
